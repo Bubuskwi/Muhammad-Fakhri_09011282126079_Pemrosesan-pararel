@@ -12,13 +12,18 @@ Tugas Pemrosesan Paralel MPI Numerik
 ### 1.Untuk server, buka file /etc/hosts menggunakan perintah sudo nano /etc/hosts
 ### 2.Didalam file /etc/hosts tambahkan IP master dan Slave/worker,kemudian save file dan keluar dari file dengan ctrl+x ![WhatsApp Image 2023-11-16 at 19 14 06_41ac349f](https://github.com/Bubuskwi/Muhammad-Fakhri_09011282126079_Pemrosesan-pararel/assets/150929648/d22ba468-a8a9-4a56-a891-992da5e80d9e)
 
-### 3.untuk worker/slave, sama seperti master buka file /etc/hosts kemudian masukkan cukup masukkan IP dari master dan worker pemegang file ![WhatsApp Image 2023-11-16 at 08 58 01_f7b157f8](https://github.com/Bubuskwi/Muhammad-Fakhri_09011282126079_Pemrosesan-pararel/assets/150929648/34e49cce-ca3d-438f-acf4-3547d5f522da)
+### 3.untuk worker/slave, sama seperti master buka file /etc/hosts kemudian masukkan cukup masukkan IP dari master dan worker pemegang file ![WhatsApp Image 2023-11-16 at 08 58 01_f7b157f8](https://github.com/Bubuskwi/Muhammad-Fakhri_09011282126079_Pemrosesan-pararel/assets/150929648/62835e01-5af3-462d-ab41-3d307aea15c9)
+
 
 
 #•	Membuat user baru
 ### 1.Untuk Server dan Worker/slave,Nama user harus sama.Untuk menambahkan User dapat digunakkan perintah sudo adduser (nama user baru)
+![image](https://github.com/Bubuskwi/Muhammad-Fakhri_09011282126079_Pemrosesan-pararel/assets/150929648/ebd273d6-303d-431f-9a93-87f361dbd795)
+
 ### 2.Kemudian berikan akses root kepada user yang telah dibuat dengan perintah sudo usermod -aG sudo (nama user baru)
 ### 3.Terakhir kita masuk sebagai user baru yang telah dibuat dengan perintah su – (nama user baru)
+![image](https://github.com/Bubuskwi/Muhammad-Fakhri_09011282126079_Pemrosesan-pararel/assets/150929648/21f23ff5-8530-4588-93dc-99aba2ec6f85)
+
 
 # Konfigurasi SSH
 ### 1.Pertama lakukan penginstalan ssh diserver dan slave dengan perintah sudo apt install openssh-server ![image](https://github.com/Bubuskwi/Muhammad-Fakhri_09011282126079_Pemrosesan-pararel/assets/150929648/023ce009-b665-4887-a59d-2dc2151cad6b)Kemudian lakukan pengecekan ssh dengan perintah ssh (nama user)@(host) ![image](https://github.com/Bubuskwi/Muhammad-Fakhri_09011282126079_Pemrosesan-pararel/assets/150929648/403b89a5-6e4d-49ce-baa9-a738b0b172ee)

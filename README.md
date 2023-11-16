@@ -52,14 +52,3 @@ Sesuaikan lokasi shared folder dengan folder yang telah dibuat sebelumnya.
 ### 4.Jalankan file menggunakan MPI dengan perintah mpirun -np <jumlah prosesor> -host <daftar host> python3 test.py.
 ###  Hasil program bubblesort ![image](https://github.com/Bubuskwi/Muhammad-Fakhri_09011282126079_Pemrosesan-pararel/assets/150929648/647f3f1e-0a37-4dc9-a050-1c1b5d49cee9)
 ### Hasil program numeric ![image](https://github.com/Bubuskwi/Muhammad-Fakhri_09011282126079_Pemrosesan-pararel/assets/150929648/3d03d1ce-a24e-42e0-b736-44b85a995913)
-
-
-
- 
-
-
-
-
-
-
-
